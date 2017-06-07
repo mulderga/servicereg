@@ -1,0 +1,8 @@
+---
+applications:
+- name: servicereg
+  random-route: true
+  instances: 1
+  memory: 1G
+  buildpack: java_buildpack
+  path: ./build/libs/servicereg.jar
